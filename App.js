@@ -1,8 +1,7 @@
 const getColor = () => {
-  const getNumber = Math.random()*16777215;  
-  // 16777215 is a speacial number that generates a hexadecimal number for U 
+  const getNumber = Math.floor(Math.random()*16777215);
+  // Floor karta ye hai ye minimum integer return karta hai     
   console.log(getNumber);
-  
 };
 
 // Above function will generate  a random integer for U 
